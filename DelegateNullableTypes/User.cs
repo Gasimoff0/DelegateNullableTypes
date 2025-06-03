@@ -28,5 +28,14 @@ namespace DelegateNullableTypes
         {
             Console.WriteLine($"ID: {Id}, Username: {Username}, Email: {Email}, Role: {Role}");
         }
+        public void CreateUser()
+        {
+            Console.Write("Username daxil edin: ");
+            string username = Console.ReadLine();
+
+            Console.Write("Email daxil edin: ");
+            string email = Console.ReadLine();
+            
+        }
     }
 }

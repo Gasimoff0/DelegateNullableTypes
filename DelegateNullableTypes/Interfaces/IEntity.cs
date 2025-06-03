@@ -1,6 +1,6 @@
 ﻿namespace DelegateNullableTypes.Interfaces
 {
-    public class IEntity
+    public interface IEntity
     {
         int Id { get;  }
     }
